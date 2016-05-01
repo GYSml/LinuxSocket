@@ -1,0 +1,4 @@
+# LinuxSocket
+这是在linux环境下实现的socket通信，使用的协议是tcp协议
+目前这个只支持一对一通信，即一个server端和一个client端
+当client发送不同的信息时，服务端通过接收到的信息来实现返回不同的数据，这个功能可用于扩展
